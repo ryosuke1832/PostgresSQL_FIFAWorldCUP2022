@@ -33,6 +33,10 @@ The following ERD illustrates the logical structure of the database and its rela
 
 ![ERD](./ERD.png)
 
+* The schema is fully normalized and enforces referential integrity via PK/FK constraints.
+* MatchParticipant resolves the many-to-many relationship between Match and NationalTeam.
+
+
 ### Key design highlights
 
 * **MatchParticipant** resolves the many-to-many relationship between `Match` and `NationalTeam`
